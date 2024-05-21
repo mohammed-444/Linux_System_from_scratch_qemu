@@ -155,7 +155,7 @@ What do we want for our minimalistic Linux system? Only a few things:
 let's create the folder structure first for rootfs:
 ---
 ```
-mkdir -pv rootfs/{bin,sbin,etc,proc,sys,usr/{bin,sbin}}
+mkdir -pv rootfs/{bin,sbin,etc,proc,sys,dev,usr/{bin,sbin}}
 
 # copy the binary from under the busybox to this folder 
 cp -av busybox/_install/* rootfs/
